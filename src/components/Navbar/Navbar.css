@@ -38,11 +38,17 @@
 .nav-item{
     margin-bottom: 1.4rem;
 }
+.nav-item:hover{
+    color: var(--blue-color);
+}
 .nav-link{
     transition: var(--transition);
 }
 .nav-link:hover{
-    color: var(--purple-color);
+    color: var(--blue-color);
+}
+.navbar span{
+    color: var(--blue-color);
 }
 
 @media screen and (min-width: 992px){
@@ -71,4 +77,5 @@
     .navbar-nav{
         display: flex;
     }
+    
 }
