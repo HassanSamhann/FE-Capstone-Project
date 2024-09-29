@@ -22,9 +22,9 @@ root.render(
           <Route path = "/book/:id" element = {<BookDetails />} />
         </Route>
       </Routes>
-      <SpeedInsights />
-
     </BrowserRouter>
+    <SpeedInsights />
+
   </AppProvider>
 );
 
