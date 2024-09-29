@@ -55,7 +55,7 @@ input{
 }
 
 /* backgrounds */
-.bg-pink{background-color: var(--cobalt-color);}
+.bg-cobalt{background-color: var(--cobalt-color);}
 .bg-purple{background-color: var(--blue-color);}
 .bg-white{background-color: var(--white-color);}
 
