@@ -24,7 +24,7 @@
     right: 0;
     top: 0;
     z-index: 10;
-    background-color: var(--black-color);
+    background-color: #394299c2;
     height: 100%;
     width: 280px;
     display: flex;
@@ -79,3 +79,8 @@
     }
     
 }
+@media screen and (max-width: 420px) {
+    .navbar-brand{
+        width: 45px;
+    }
+  }
